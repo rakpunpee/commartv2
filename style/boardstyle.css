@@ -1,0 +1,70 @@
+table {
+	max-width: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.table th,.table td {
+	padding: 8px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: middle;
+	border-top: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+}
+
+.table td.center {
+	text-align: center;
+}
+
+.table td.vtob {
+	padding: 6px;
+	line-height: 14px;
+	vertical-align: top;	
+}
+
+.table th {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #52b9e9;
+}
+
+.table th.columns {
+	font-size: 12px;
+	color: #333333;
+	background-color: #fefefe;
+}
+
+.table thead th {
+	vertical-align: bottom;
+}
+
+.table tbody tr.odd {
+	background-color: #B5FFB5;
+}
+
+.table tbody tr.even {
+	background-color: #83FF66;
+}
+
+.table caption+thead tr:first-child th,.table caption+thead tr:first-child td,.table colgroup+thead tr:first-child th,.table colgroup+thead tr:first-child td,.table thead:first-child tr:first-child th,.table thead:first-child tr:first-child td
+	{
+	border-top: 2px solid #ffffff;
+}
+
+.table tbody+tbody {
+	border-top: 2px solid #ffffff;
+}
+
+.table-condensed th,.table-condensed td {
+	padding: 4px 5px;
+}
+
+/*#ecf5f9*/
